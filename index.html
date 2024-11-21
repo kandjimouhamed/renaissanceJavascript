@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- ########## le menu de tri ######### -->
+        <div class="btn-group mt-3" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check btnTous" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-success" for="btnradio1">Tous</label>
+          
+            <input type="radio" class="btn-check btnExcelent" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-success" for="btnradio2">Excellent </label>
+          
+            <input type="radio" class="btn-check btnTresbien" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-success" for="btnradio3">Très bien</label>
+
+            <input type="radio" class="btn-check btnBien " name="btnradio" id="btnradio4" autocomplete="off">
+            <label class="btn btn-outline-success" for="btnradio4">Bien</label>
+
+            <input type="radio" class="btn-check btnAssezbien" name="btnradio" id="btnradio5" autocomplete="off">
+            <label class="btn btn-outline-success" for="btnradio5">Assez bien</label>
+
+            <input type="radio" class="btn-check btnPassable" name="btnradio" id="btnradio6" autocomplete="off">
+            <label class="btn btn-outline-success" for="btnradio6">Passable</label>
+
+            <input type="radio" class="btn-check btnInsuffisant" name="btnradio" id="btnradio7" autocomplete="off">
+            <label class="btn btn-outline-success" for="btnradio7">Insuffisant</label>
+        </div>
+        <!-- ######### le tableau des etudiants ######### -->
+        <div class=" m-1 mx-auto">
+            <table class="table table-bordered table-hover" id = 'table'>
+                <thead id = 'entete'>
+                    <tr>
+                        <th class="text-bg-success">NOM</th>
+                        <th class="text-bg-success">AGE</th>
+                        <th class="text-bg-success">MOYENNE</th>
+                    </tr>
+                </thead>
+                <tbody id="corpTab">
+                </tbody>
+            </table>
+        </div>
+    </div>
+   
+    
+    <p id="demo"></p>
+    <!-- <script src="./index.js"></script> -->
+    <script src="./script.js"></script>
+    
+</body>
+</html>
